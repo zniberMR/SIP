@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="db_sipApp_PU" transaction-type="JTA">
+        <jta-data-source>jdbc/db_sipApp_resource</jta-data-source>
+        <class>ma.ac.ehtp.sip.entities.Utilisateur</class>
+        <class>ma.ac.ehtp.sip.entities.Administrateur</class>
+        <class>ma.ac.ehtp.sip.entities.Secretaire</class>
+        <class>ma.ac.ehtp.sip.entities.Professeur</class>
+        <class>ma.ac.ehtp.sip.entities.Commande</class>
+        <class>ma.ac.ehtp.sip.entities.Demande</class>
+    </persistence-unit>
+</persistence>
